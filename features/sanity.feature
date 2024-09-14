@@ -31,9 +31,9 @@ Feature: Amazon Smoke Test - Login Page - valid case
     Examples: 
       | username       | password | error_message                                     |
       | john@gmail.com | wrong    | Your password is incorrect                        | #invalid password
-      |     809723051 | abcde    | We cannot find an account with that mobile number | #invalid username - mobile
+      |     8023051 | abcde    | We cannot find an account with that mobile number | #invalid username - mobile
      # | wrong@gmail.com| wrong    | We cannot find an account with that email address | #invalid username - email
-     # |     8097231050 |          | Enter your password.                              | # blank password
+     # |     8091050 |          | Enter your password.                              | # blank password
     #  |                |   123456 | Enter your email or mobile phone number           | # blank username   
     #  |                |          | Username and password cannot be empty.            | # blank
     #  | john@gmail.com | wrong    | Incorrect username or password.                   | #invalid username & password
@@ -65,7 +65,7 @@ Feature: Amazon Smoke Test - Login Page - valid case
       | username       | password |
      # | john@ymail.com |   123456 |
      # | jane@gmail.com | pass@122 |
-      |     809731050 | 80972350   |
+      |     8091050 | 80972350   |
 
   Scenario Outline: User can select "Change" link on Password page # Change link
     When the User enters username and navigates to password page
@@ -77,7 +77,7 @@ Feature: Amazon Smoke Test - Login Page - valid case
     Examples: 
       | username       |
     #  | john@ymail.com |
-      |     80972050 |
+      |     872050 |
      # | jane@gmail.com |
       
    Scenario Outline: User can select Get an OTP on your phone link on Password page # OTP
