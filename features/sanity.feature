@@ -49,7 +49,7 @@ Feature: Amazon Smoke Test - Login Page - valid case
     Examples: 
       | username       |
     #  | user@gmail.com |
-      |     809731050 |
+      |     8097350 |
     #  | test@yahoo.com |
     #  |     916326762 |
 
@@ -65,7 +65,7 @@ Feature: Amazon Smoke Test - Login Page - valid case
       | username       | password |
      # | john@ymail.com |   123456 |
      # | jane@gmail.com | pass@122 |
-      |     8091050 | 80972350   |
+      |     8091050 | 809750   |
 
   Scenario Outline: User can select "Change" link on Password page # Change link
     When the User enters username and navigates to password page
